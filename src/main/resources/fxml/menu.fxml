@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane fx:id="rootBorderPane" fx:controller="com.alabtaal.inventory.controller.MenuController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+       <MenuBar BorderPane.alignment="CENTER">
+           <Menu mnemonicParsing="false" text="File">
+               <MenuItem onAction="#onItemsMenuItemSelected" mnemonicParsing="false" text="Items"/>
+               <MenuItem onAction="#onPage2MenuItemSelected" mnemonicParsing="false" text="itemSale"/>
+           </Menu>
+           <Menu mnemonicParsing="false" text="Options">
+               <MenuItem onAction="#onCloseMenuItemSelected"  mnemonicParsing="false" text="Close"/>
+           </Menu>
+       </MenuBar>
+   </top>
+</BorderPane>
