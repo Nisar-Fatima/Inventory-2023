@@ -23,6 +23,7 @@ public class ItemController implements Initializable {
     private ChoiceBox<String > itemTypeChoiceBox;
     @FXML
     private TextField idTextField;
+    //dummy2
     @FXML
     private TextField nameTextField;
     @FXML
