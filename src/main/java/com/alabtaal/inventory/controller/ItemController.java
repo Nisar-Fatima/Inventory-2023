@@ -45,7 +45,7 @@ public class ItemController implements Initializable {
         this.itemService = itemService;
     }
 
-
+//Arooba
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         itemTypeChoiceBox.setItems(FXCollections.observableList(getItemTypes()));
