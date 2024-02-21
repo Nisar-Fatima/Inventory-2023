@@ -18,11 +18,13 @@ import java.util.ResourceBundle;
 @Controller
 public class ItemController implements Initializable {
     private final ItemService itemService;
+//    dumyyyyyy1
 
 @FXML
     private ChoiceBox<String > itemTypeChoiceBox;
     @FXML
     private TextField idTextField;
+    // dummy 1
     //dummy2
     @FXML
     private TextField nameTextField;
