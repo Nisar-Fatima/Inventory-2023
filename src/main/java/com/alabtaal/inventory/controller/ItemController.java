@@ -46,7 +46,7 @@ public class ItemController implements Initializable {
         this.itemService = itemService;
     }
 
-
+//Fatima
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         itemTypeChoiceBox.setItems(FXCollections.observableList(getItemTypes()));
