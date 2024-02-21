@@ -18,12 +18,14 @@ import java.util.ResourceBundle;
 @Controller
 public class ItemController implements Initializable {
     private final ItemService itemService;
+//    dumyyyyyy1
 
 @FXML
     private ChoiceBox<String > itemTypeChoiceBox;
     @FXML
     private TextField idTextField;
     //dummy2
+    // dummy 1
     @FXML
     private TextField nameTextField;
     @FXML
@@ -45,7 +47,7 @@ public class ItemController implements Initializable {
         this.itemService = itemService;
     }
 
-//Arooba
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         itemTypeChoiceBox.setItems(FXCollections.observableList(getItemTypes()));
